@@ -7,17 +7,17 @@ title: Home
 
 TRX Systems designs and operationalises resilient endpoint ecosystems across hybrid Microsoft and Apple environments.
 
-## Core Capabilities
+## Focus areas
 
-- Endpoint Architecture (Intune / Jamf)
-- Identity & Access Alignment
-- Device Lifecycle Engineering
-- Automation & Policy Frameworks
+- Endpoint Architecture (Apple + Windows management)
+- Identity-aligned device posture
+- Automation, telemetry, and remediation
+- Documentation systems and operational maturity
 
-## Engineering Principles
+## About
 
-Structured. Secure. Scalable.
+I’m an Endpoint & Systems Engineer focused on lifecycle ownership, standardisation, and repeatability.
 
-Architecture over improvisation.  
-Policy-driven implementation.  
-Operational clarity at scale.
+→ Read more: **[About]({{ '/about/' | relative_url }})**  
+→ View approach: **[Architecture]({{ '/architecture/' | relative_url }})**  
+→ See philosophy: **[Automation]({{ '/automation/' | relative_url }})**

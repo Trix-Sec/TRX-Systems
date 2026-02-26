@@ -8,15 +8,16 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="logo-img">
-      <img src="{{ site.baseurl }}/assets/images/TRX_Letter_Mark_Colour.png" alt="TRX Systems Logo">
-    </div>
-    <div class="logo-text"></div>
-    <nav>
-      <a href="{{ site.baseurl }}/">Home</a>
-      <a href="{{ site.baseurl }}/architecture">Architecture</a>
-      <a href="{{ site.baseurl }}/automation">Automation</a>
-      <a href="{{ site.baseurl }}/contact">Contact</a>
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark">TRX</span>
+      <span class="brand-sub">SYSTEMS</span>
+    </a>
+
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a href="{{ '/architecture/' | relative_url }}">Architecture</a>
+      <a href="{{ '/automation/' | relative_url }}">Automation</a>
     </nav>
   </header>
 

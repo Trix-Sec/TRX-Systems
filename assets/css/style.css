@@ -90,3 +90,28 @@ p {
   color: var(--muted);
   border-top: 1px solid rgba(201,162,39,0.15);
 }
+
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand-mark {
+  font-size: 1.2rem;
+  font-weight: 650;
+  letter-spacing: 0.30em;
+  color: var(--gold);
+}
+
+.brand-sub {
+  font-size: 0.75rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.site-nav a {
+  margin-left: 28px;
+}
