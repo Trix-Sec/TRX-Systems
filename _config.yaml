@@ -1,0 +1,9 @@
+title: TRX Systems
+description: Endpoint Infrastructure, Engineered.
+baseurl: ""
+url: "https://trix-sec.github.io/TRX-Systems"
+
+markdown: kramdown
+theme: null
+
+permalink: pretty
