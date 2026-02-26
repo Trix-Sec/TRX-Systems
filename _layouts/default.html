@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <div class="logo">
-    <img src="/assets/images/logo.png" alt="TRX Systems Logo">
-  </div>
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
-    <div class="logo">TRX</div>
+    <div class="logo-img">
+      <img src="{{ site.baseurl }}/assets/images/TRX_Letter_Mark_Colour.png" alt="TRX Systems Logo">
+    </div>
+    <div class="logo-text">TRX</div>
     <nav>
-      <a href="/">Home</a>
-      <a href="/architecture">Architecture</a>
-      <a href="/automation">Automation</a>
-      <a href="/contact">Contact</a>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/architecture">Architecture</a>
+      <a href="{{ site.baseurl }}/automation">Automation</a>
+      <a href="{{ site.baseurl }}/contact">Contact</a>
     </nav>
   </header>
 
